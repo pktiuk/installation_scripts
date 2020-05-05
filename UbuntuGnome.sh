@@ -1,3 +1,3 @@
 sudo apt install chrome-gnome-shell
- sudo apt install gnome-tweaks
+ sudo apt install gnome-tweaks filemanager-actions
 
