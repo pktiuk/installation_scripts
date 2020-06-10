@@ -11,11 +11,12 @@ fi
 #DONE: git  vscodium caprine ros braveBrowser steam open-ssh valgring
 #todo discord foxxit linux+windows Time
 
-
+#szybka instalacja czcionek microsoftu
+#apt-get install ttf-mscorefonts-installer
 
 #lutris
 sudo echo "deb http://download.opensuse.org/repositories/home:/strycore/xUbuntu_17.10/ ./" > /etc/apt/sources.list.d/lutris.list
 wget -q http://download.opensuse.org/repositories/home:/strycore/xUbuntu_17.10/Release.key -O- | sudo apt-key add -
 
 #sama instalacja
-apt update && sudo apt install -y git steam lutris terminator openssh-client valgrind jstest-gtk cmake pinta
+apt update && sudo apt install -y git steam lutris terminator openssh-client valgrind jstest-gtk cmake pinta 
