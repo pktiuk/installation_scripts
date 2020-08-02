@@ -15,7 +15,7 @@ sudo apt install -y clang-format codium
 ###if install java?
 
 #install addons to vscode
-CODIUM_ADDONS="ms-vscode.cpptools ACharLuk.easy-cpp-projects bierner.markdown-mermaid CoenraadS.bracket-pair-colorizer cschlosser.doxdocgen mhutchie.git-graph ms-python.python ms-vscode.cmake-tools ms-vscode.cpptools roadkillco.dashmips-debugger twxs.cmake VisualStudioExptTeam.vscodeintellicode waderyan.gitblame xaver.clang-format"
+CODIUM_ADDONS="ms-vscode.cpptools ACharLuk.easy-cpp-projects bierner.markdown-mermaid CoenraadS.bracket-pair-colorizer cschlosser.doxdocgen mhutchie.git-graph ms-python.python ms-vscode.cmake-tools ms-vscode.cpptools roadkillco.dashmips-debugger twxs.cmake VisualStudioExptTeam.vscodeintellicode waderyan.gitblame xaver.clang-format streetsidesoftware.code-spell-checker"
 
 for n in $CODIUM_ADDONS
 do
