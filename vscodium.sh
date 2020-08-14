@@ -12,7 +12,14 @@ sudo apt install -y clang-format codium
 #sudo apt install -y  default-jdk
 
 
-###if install java?
+#has to change /usr/share/codium/resources/app/product.json
+#and change
+#"extensionsGallery": {
+#    "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+#    "itemUrl": "https://marketplace.visualstudio.com/items"
+#}
+
+
 
 #install addons to vscode
 CODIUM_ADDONS="ms-vscode.cpptools ACharLuk.easy-cpp-projects bierner.markdown-mermaid CoenraadS.bracket-pair-colorizer cschlosser.doxdocgen mhutchie.git-graph ms-python.python ms-vscode.cmake-tools ms-vscode.cpptools roadkillco.dashmips-debugger twxs.cmake VisualStudioExptTeam.vscodeintellicode waderyan.gitblame xaver.clang-format streetsidesoftware.code-spell-checker"
