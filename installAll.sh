@@ -19,4 +19,4 @@ sudo echo "deb http://download.opensuse.org/repositories/home:/strycore/xUbuntu_
 wget -q http://download.opensuse.org/repositories/home:/strycore/xUbuntu_17.10/Release.key -O- | sudo apt-key add -
 
 #sama instalacja
-apt update && sudo apt install -y git steam lutris terminator openssh-client valgrind jstest-gtk cmake pinta 
+apt update && sudo apt install -y git meld steam lutris terminator openssh-client valgrind jstest-gtk cmake pinta 
